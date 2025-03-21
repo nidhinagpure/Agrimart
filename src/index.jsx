@@ -1,17 +1,23 @@
 import { createRoot } from "react-dom/client";
+import './../src/index.css'
+import Navbar,{ MainImage,Chooseus } from "./componets/navbar/Navbar";
+
+
 
 const root = createRoot(document.getElementById("root"));
 
       function App(){
         return (
             <div>
-                <h1>hii Nidhi</h1>
+                <Navbar/>
+                <MainImage/>
+                <Chooseus/>
             </div>
         )
       }
 
 root.render(
     <>
-    <App/>
+      <App/>
     </>
 )

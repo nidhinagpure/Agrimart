@@ -1,38 +1,46 @@
+
 body{
     margin: 0;
     padding: 0;
 }
-.nav-Div{
-    width: 100%;
+.navbar-Container{
     display: flex;
     align-items: center;
-    background-color: #0D4715;
-    color: white;
+    width: 100%;
+    background-color: #1F4529;
+    color: #E8ECD7;
+    font-size: 25px;    
 }
-.nav-section{
-    margin-left: 62%;
-    font-size: 24px; 
+.logo-Container{
+    border-radius: 50px;
+    margin: 2px 0 2px 60px;
 }
-.nav-Head{
-   padding-right: 45px;
+.Navbar-Logo{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
 }
-.re-line{
+.navbar-Heading{
+    padding-left: 58%;
+    cursor: pointer;   
+}
+.navbar-Text{
+    padding-right: 50px;   
+}
+.remove-Name{
     text-decoration: none;
     color: white;
 }
-.nav-Logo{
-    height: 50px;
-    margin: 4px 0px 4px 50px;
-}
-.nav-Head:hover{
-    transition: 2s;
-    text-decoration: underline;
-    color: white;
+.navbar-Text:hover{
+    text-decoration: underline;   
 }
 .main-Image{
     width: 100%;
-    height: 700px;
+    height: 730px;
 }
+
 .hero-Container{
     display: flex;
     justify-content: space-around;
@@ -76,7 +84,6 @@ body{
 .section-Text{
     padding: 0 94px 0 0;
 }
-
 .choose-Icons{
     height: 200px;
     display: block;

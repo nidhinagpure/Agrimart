@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* Navbar Start */
 .nav-Div{
     width: 100%;
     display: flex;
@@ -20,6 +21,11 @@ body{
     text-decoration: none;
     color: white;
 }
+
+/* Navbar End */
+
+/* Home page Middle section start */
+
 .nav-Logo{
     height: 50px;
     margin: 4px 0px 4px 50px;
@@ -77,6 +83,9 @@ body{
     padding: 0 94px 0 0;
 }
 
+/* Home page Middle section End */
+
+/* Home page Choose  section start */
 .choose-Icons{
     height: 200px;
     display: block;
@@ -117,3 +126,4 @@ body{
     margin: 10px auto;
     cursor: pointer;
 }
+/* Home page Choose  section End */
